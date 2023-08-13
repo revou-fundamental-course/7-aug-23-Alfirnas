@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Course week 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="luasSegitiga">
+        <div class="header">LUAS SEGITIGA</div>
+        <img src="assets/Rumus-segitiga.png" />
+        <p>Rumus Luas Segitiga yaitu:</p>
+        <p class="rumus">L = 1/2 * alas * tinggi</p>
+        <p>Dimana:</p>
+        <ul>
+          <li>L = Luas</li>
+          <li>a = Panjang Alas</li>
+          <li>t = Tinggi</li>
+        </ul>
+        <h3>HITUNG LUAS SEGITIGA</h3>
+        <input
+          type="number"
+          placeholder="Masukkan alas segitiga"
+          id="alasLuas"
+        />
+        <input
+          type="number"
+          placeholder="Masukkan tinggi segitiga"
+          id="tinggiLuas"
+        />
+        <button class="hitung" id="hitungLuas">Hitung</button>
+        <p id="hasilLuas"></p>
+        <button class="reset" id="resetLuas">Reset</button>
+      </div>
+      <div class="kelilingSegitiga">
+        <div class="header">KELILING SEGITIGA</div>
+        <img src="assets/Rumus-segitiga.png" />
+        <p>Rumus Luas Segitiga yaitu:</p>
+        <p class="rumus">K = S1+S2+S3</p>
+        <p>Dimana:</p>
+        <ul>
+          <li>K = Keliling</li>
+          <li>S1 = Sisi a</li>
+          <li>S2 = Sisi b</li>
+          <li>S3 = Sisi c</li>
+        </ul>
+        <h3>HITUNG LUAS SEGITIGA</h3>
+        <input type="number" placeholder="Masukkan sisi 1" id="s1" />
+        <input type="number" placeholder="Masukkan sisi 2" id="s2" />
+        <input type="number" placeholder="Masukkan sisi 3" id="s3" />
+        <button class="hitung" id="hitungKeliling">Hitung</button>
+        <p id="hasilKeliling"></p>
+        <button class="reset" id="resetKeliling">Reset</button>
+      </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
